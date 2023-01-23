@@ -1,0 +1,35 @@
+.headersection{
+    background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(121, 113, 234,0.7);
+}
+.header{
+    padding-top: 320px;
+    padding-left: 180px;
+    color: white;
+}
+.headtitletext{
+    font-size: 40px;
+    font-weight: bold;
+}
+.headmaintext{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.headendtext{
+    padding-top: 20px;
+}
+.headbtn{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7971EA;
+    color: white;
+    height: 50px;
+    width: 150px;
+}

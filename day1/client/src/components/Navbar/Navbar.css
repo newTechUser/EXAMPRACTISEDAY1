@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+/* -------------------- */
+.start{
+    padding-left: 100px;
+    /* color: white; */
+}
+.starttext{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+/* ----------------------- */
+
+.center{
+    /* color: white; */
+}
+.pagelist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+}
+.pagelistitem{
+    font-size: 20px;
+    cursor: pointer;
+}
+/* ---------------------- */
+.end{
+    padding-right: 100px;
+}
+.divbtn{
+    /*  */
+}
+.btn{
+    background-color: #7971EA;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100px;
+    height: 40px;
+}

@@ -1,0 +1,56 @@
+.tch{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.tchtitletext{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.tchmaintext{
+    text-align: center;
+    font-size: 20px;
+}
+
+.cardside{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.card{
+    position: relative;
+}
+.img{
+    position: absolute;
+    top: -60px;
+    left: 80px;
+}
+.image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.carditem{
+    padding-top: 100px;
+    border: 1px solid;
+    height: 250px;
+}
+.cardname{
+    font-size: 20px;
+    padding: 50px 10px 0px 10px;
+    text-align: center;
+}
+.cardsub{
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+.carddescription{
+    width: 300px;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}

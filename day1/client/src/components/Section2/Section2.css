@@ -1,0 +1,50 @@
+.section2{
+    padding-top: 800px;
+}
+.section2start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section2title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section2main{
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+/* ------------------------------ */
+
+.dflex{
+    padding-top: 100px;
+}
+.dflexitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.dfleximg{
+
+}
+.dfleximage{
+    width: 690px;
+    height: 507px;
+}
+.dflextext{
+    width: 300px;
+}
+.dflextitle{
+    font-size: 30px;
+}
+.dflexmain{
+    font-size: 20px;
+}
+.dflexend{
+    font-size: 20px;
+    color: rgb(121, 113, 234);
+}
