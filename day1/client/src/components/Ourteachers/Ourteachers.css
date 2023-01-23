@@ -54,3 +54,35 @@
     padding: 0px 10px 0px 10px;
     text-align: center;
 }
+
+.centerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divsrchinput{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 433px;
+}   
+.srchinput{
+    width: 300px;
+    height: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    color: black;
+}
+.Srch{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100px;
+    height: 32px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+}

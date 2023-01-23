@@ -1,7 +1,12 @@
 import React from 'react'
+import { useState } from 'react'
 import './Header.css'
 
 function Header() {
+    const [search,setsearch] = useState("")
+    function handleSearch(){
+        console.log(search);
+    }
   return (
     <div className="headersection">
         <div className="header">
@@ -16,6 +21,10 @@ function Header() {
                     Admission Now
                 </button>
             </div>
+        </div> 
+        <div className="divsrchinput">
+            <input type="text" className="srchinput" placeholder="Search" onChange={()=>setsearch(this.value)}/>
+            <button className='Srch' onClick={handleSearch}>Search</button>
         </div>
     </div> 
   )

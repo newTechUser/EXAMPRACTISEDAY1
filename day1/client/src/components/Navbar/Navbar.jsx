@@ -1,8 +1,14 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 
 function Navbar() {
+    const [search,setsearch] = useState("")
+
+    function handleSearch(){
+        // console.log(search);
+    }
   return (
     <nav className="navbar">
         <div className="start">
@@ -23,11 +29,15 @@ function Navbar() {
             </ul>
         </div>
         <div className="end">
-            <div className="divbtn">
+            <div className="divsrchinput">
+                <input type="text" className="srchinput" placeholder="Search" onChange={(e)=>setsearch(e.target.value)}/>
+                <button className='Srch' onClick={handleSearch}>Search</button>
+            </div>
+            {/* <div className="divbtn">
                 <button className="btn">
                     Contact us
                 </button>
-            </div>
+            </div> */}
         </div>
     </nav>
   )

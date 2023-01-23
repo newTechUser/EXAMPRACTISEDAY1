@@ -51,3 +51,31 @@
     width: 100px;
     height: 40px;
 }
+
+
+
+.divsrchinput{
+    border: 1px solid;
+    border-radius: 10px;
+}   
+.srchinput{
+    width: 300px;
+    height: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: none;
+    color: black;
+}
+.Srch{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100px;
+    height: 32px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+}
